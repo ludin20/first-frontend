@@ -1,0 +1,38 @@
+/*Gradient*/
+.slider {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#01abba', endColorstr='#0193a7');
+}
+
+.card .name {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80fffffff, endColorstr=#80ffffff);
+	zoom: 1;
+}
+
+.card .top {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00fffffff, endColorstr=#ffffffff);
+	zoom: 1;
+}
+
+.card .bottom {
+	background: transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fffffffff, endColorstr=#00ffffff);
+
+	zoom: 1;
+}
+
+.card .button .hand {
+	border-radius: 0;
+	border: 0;
+	margin-left: -2px;
+	background: url("../../img/hand-button.png");
+	height: 28px;
+	width: 325px;
+
+}
+
+.slider  a {
+	border: 0;
+	box-shadow: 0 5px 7px rgb(56, 100, 149);
+}

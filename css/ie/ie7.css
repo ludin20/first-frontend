@@ -1,0 +1,17 @@
+.nav > ul {
+	display: block;
+}
+.nav > ul >li {
+	float: left;
+	display: block;
+	padding-top: 13px;
+	height: 32px;
+}
+.nav > ul> li.separator {
+	color: #ffffff;
+}
+
+.comment .tail {
+	margin-top:-12px;
+}
+

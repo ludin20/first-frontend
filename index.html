@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/reset.css"/>
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="css/ie/ie7.css"/><![endif]-->
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="css/ie/ie8.css"/><![endif]-->
+	<!--[if lt IE 10]>
+	<link rel="stylesheet" href="css/ie/ie.css"/><![endif]-->
+
+	<title></title>
+</head>
+<body>
+<div class="noise"></div>
+<div class="wrap block shadow">
+<div class="header">
+	<div class="logo left"></div>
+	<div class="contact right">
+		<p class="text left">По всем вопросам обращайтесь по телефонам:</p>
+
+		<div class="phone left">
+			<div class="ico left"></div>
+			<div class="phones left">
+				<p class="first">211-311</p>
+
+				<p>+7-901-611-1311</p>
+			</div>
+		</div>
+
+	</div>
+	<div class="clear"></div>
+	<div class="nav">
+		<div class="border-left"></div>
+		<div class="border-right"></div>
+		<ul>
+			<li><a href="">О фонд</a></li>
+			<li class="separator">|</li>
+			<li><a href="">Детки</a></li>
+			<li class="separator">|</li>
+			<li><a href="">Проекты</a></li>
+			<li class="separator">|</li>
+			<li><a href="">Акции</a></li>
+			<li class="separator">|</li>
+			<li><a href="">События</a></li>
+			<li class="separator">|</li>
+			<li><a href="">Блог</a></li>
+			<li class="separator">|</li>
+			<li><a href="">Отчеты</a></li>
+			<li class="active"><a href="">Я могу помочь?</a></li>
+			<li><a href="">Для СМИ / Медиатека</a></li>
+			<div class="clear"></div>
+		</ul>
+
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="slider">
+	<div class="wrap">
+		<div class="bg">
+		</div>
+	</div>
+	<div id="sliderL" class="left">
+		<a href=""><img src="img/photos/slider-1.jpg" alt=""/>
+
+			<div class="var">
+				<span>Имя1</span>
+				<span>Описание1</span>
+				<span><strong>111111 pub.</strong> до 30.01.02</span>
+				<span>card-1.jpg</span>
+			</div>
+		</a>
+		<a href=""><img src="img/photos/slider-2.jpg" alt=""/>
+
+			<div class="var">
+				<span>Имя2</span>
+				<span>Описание2</span>
+				<span><strong>111111 pub.</strong> до 30.01.02</span>
+				<span>card-2.jpg</span>
+			</div>
+		</a>
+		<a href=""><img src="img/photos/slider-3.jpg" alt=""/>
+
+			<div class="var">
+				<span>Имя3</span>
+				<span>Описание3</span>
+				<span><strong>111111 pub.</strong> до 30.01.02</span>
+				<span>card-3.jpg</span>
+			</div>
+		</a>
+		<a href=""><img src="img/photos/slider-4.jpg" alt=""/>
+
+			<div class="var">
+				<span>Имя4</span>
+				<span>Описание4</span>
+				<span><strong>111111 pub.</strong> до 30.01.02</span>
+				<span>card-4.jpg</span>
+			</div>
+		</a>
+	</div>
+	<div id="sliderR" class="right">
+		<a href=""><img src="img/photos/slider-6.jpg" alt=""/>
+
+			<div class="var">
+				<span>Имя6</span>
+				<span>Описание6</span>
+				<span><strong>111111 pub.</strong> до 30.01.02</span>
+				<span>card-6.jpg</span>
+			</div>
+		</a>
+		<a href=""><img src="img/photos/slider-7.jpg" alt=""/>
+
+			<div class="var">
+				<span>Имя7</span>
+				<span>Описание7</span>
+				<span><strong>111111 pub.</strong> до 30.01.02</span>
+				<span>card-7.jpg</span>
+			</div>
+		</a>
+		<a href=""><img src="img/photos/slider-8.jpg" alt=""/>
+
+			<div class="var">
+				<span>Имя8</span>
+				<span>Описание8</span>
+				<span><strong>111111 pub.</strong> до 30.01.02</span>
+				<span>card-8.jpg</span>
+			</div>
+		</a>
+		<a href=""><img src="img/photos/slider-9.jpg" alt=""/>
+
+			<div class="var">
+				<span>Имя9</span>
+				<span>Описание9</span>
+				<span><strong>111111 pub.</strong> до 30.01.02</span>
+				<span>card-9.jpg</span>
+			</div>
+		</a>
+	</div>
+	<div class="clear"></div>
+
+</div>
+<div id="prev" class="array left" onclick="slider.prev();"><img src="img/ico_slider_prev.png" alt=""/></div>
+<div id="next" class=" array right" onclick="slider.next();"><img src="img/ico_slider_next.png" alt=""/></div>
+<a id="showAll" href="">Смотреть всех детей <img src="img/ico_array_right_fff.png" alt=""/></a>
+
+<div id="card" class="card">
+	<div id="elm">
+		<a href=""><img src="img/photos/slider-5.jpg" alt=""/>
+
+			<div class="var">
+				<span>Имя5</span>
+				<span>Описание5</span>
+				<span><strong>111111 pub.</strong> до 30.01.02</span>
+				<span>card-5.jpg</span>
+			</div>
+		</a>
+	</div>
+	<div class="top"></div>
+	<div class="content">
+		<div class="photo">
+			<img id="card-img" src="img/photos/card-5.jpg" alt=""/>
+
+			<p id="card-name" class="name">Даниил Королев</p>
+		</div>
+		<p id="card-text" class="text">Учится играть заново. Он уже и забыл, каково это — быть дома, ведь долгие 1,5
+			года мальчик провел в больнице…</p>
+
+		<p class="gray">Нужно собрать:</p>
+
+		<div class="button">
+			<p id="card-pay"><strong>1 000 500р.</strong> до 23.10.12</p>
+			<a href="" class="hand">Я хочу помочь</a>
+		</div>
+		<a href="" class="more">Подробнее</a> <img src="img/ico_array_right.png" alt=""/>
+	</div>
+	<div class="bottom"></div>
+</div>
+
+<div class="blogNews">
+	<div class="border-left"></div>
+	<div class="border-right"></div>
+	<div class="content block">
+		<h4>Обновления блогов детей</h4>
+
+		<div class="news">
+			<div class="date">
+				<span class="day">12</span>
+				<span class="month">сент,</span>
+				<span class="year">2012</span>
+			</div>
+			<div class="content">
+				<a class="title" href="">Нужна помощь! Ангелина Захарова ждёт обыкновенного чуда</a>
+
+				<p class="author">Ребенок: <a class="name" href="">Артем Куракин</a></p>
+			</div>
+		</div>
+		<div class="news">
+			<div class="date">
+				<span class="day">12</span>
+				<span class="month">сент,</span>
+				<span class="year">2012</span>
+			</div>
+			<div class="content">
+				<a class="title" href="">В ожидании Обыкновенного чуда: Один на один с гемофилией</a>
+
+				<p class="author">Ребенок: <a class="name" href="">Вадим Баженов</a></p>
+			</div>
+		</div>
+		<div class="news">
+			<div class="date">
+				<span class="day">12</span>
+				<span class="month">сент,</span>
+				<span class="year">2012</span>
+			</div>
+			<div class="content">
+				<a class="title" href="">Артем Куракин ждет обыкновенного чуда</a>
+
+				<p class="author">Ребенок: <a class="name" href="">Артем Куракин </a></p>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<div class="siteNews">
+	<h4>Новое на сайте</h4>
+
+	<div class="news">
+		<img class="photo" src="img/siteNews/1.jpg" alt=""/>
+
+		<div class="content">
+			<a class="title" href="">Приглашаем болельщиков совершить обыкновенное чудо для Леши Парфентьева</a>
+
+			<p class="info">
+				Акция:<a href="">Светлая прогулка</a>
+				<span class="date">12 сентября, 2012</span>
+			</p>
+
+			<p class="desc">Сегодня на стадионе «Труд» на матче 10 тура SUPRA-Первентства России между «Томью» и
+				«Уралом» из Екатеринбурга болельщики смогут помочь 6-летнему Леше Парфентьеву.</p>
+		</div>
+	</div>
+	<div class="news">
+		<img class="photo" src="img/siteNews/2.jpg" alt=""/>
+
+		<div class="content">
+			<a class="title" href="">Спасибо за чудо! Томск совершил обыкновенное чудо</a>
+
+			<p class="info">
+				Категория:<a href="">Новости</a>
+				<span class="date">12 сентября, 2012</span>
+			</p>
+
+			<p class="desc">В ходе благотворительного марафона, который состоялся 20 мая было собрано более трех
+				миллионов рублей.</p>
+		</div>
+	</div>
+	<div class="news">
+		<div class="content">
+			<a class="title" href="">Пике выживания. Матери особенных детей обратились к губернатору Томской области
+				С.А.Жвачкину</a>
+
+			<p class="info">
+				Категория: <a href="">Нужна помощь</a>
+				<span class="date">12 сентября, 2012</span>
+			</p>
+
+			<p class="desc">Сегодня родители детей с инвалидностью озвучили проблемы, с которыми сталкиваются их семьи,
+				на заседании постоянной комиссии по вопросам семьи…</p>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="comments">
+	<h4>Свежие комментарии</h4>
+
+	<div class="comment">
+		<div class="content">
+			<p class="text">Здравствуйте, я хотел бы привести детские вещи. У нас есть коляска, кровать. Если что
+				приедим к вам в воскресенье…</p>
+
+			<p class="info">
+				Статья: <a href="">Помощь детям материально</a>
+			</p>
+			<span class="date">12 сентября, 2012</span>
+		</div>
+		<div class="tail"></div>
+	</div>
+	<div class="comment">
+		<div class="content">
+			<p class="text">Таких случаев в Томской области фиксируют не больше 10-ти год. Ангелине повезло. Ее лечение
+				начали своевременно.</p>
+
+			<p class="info">
+				Статья: <a href="">Благотворительные организации</a>
+			</p>
+			<span class="date">12 сентября, 2012</span>
+		</div>
+		<div class="tail"></div>
+	</div>
+	<div class="comment">
+		<div class="content">
+			<p class="text">Иногда она улыбается маме. Но кушать, сидеть и играть самостоятельно – это Саше не
+				доступно. </p>
+
+			<p class="info">
+				Статья: <a href="">Помощь Вите Усольцеву</a>
+			</p>
+			<span class="date">12 сентября, 2012</span>
+		</div>
+		<div class="tail"></div>
+	</div>
+	<div class="clear"></div>
+</div>
+</div>
+<div class="partners">
+</div>
+<div class="wrap">
+	<div class="footer shadow">
+		<div class="nav block">
+			<ul>
+				<li><a href="">О фонд</a></li>
+				<li class="separator">|</li>
+				<li><a href="">Детки</a></li>
+				<li class="separator">|</li>
+				<li><a href="">Проекты</a></li>
+				<li class="separator">|</li>
+				<li><a href="">Акции</a></li>
+				<li class="separator">|</li>
+				<li><a href="">События</a></li>
+				<li class="separator">|</li>
+				<li><a href="">Блог</a></li>
+				<li class="separator">|</li>
+				<li><a href="">Отчеты</a></li>
+				<li class="separator">|</li>
+				<li><a href="">Я могу помочь?</a></li>
+				<li class="separator">|</li>
+				<li><a href="">Для СМИ / Медиатека</a></li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+		<div class="contacts">
+			<div class="copiright">
+				<img class="logo left" src="img/footer/logo.png" alt=""/>
+
+				<div class="content left">
+					<p>© 2010-2012 Детский благотворительный фонд «Обыкновенное чудо».</p>
+
+					<p>E-mail: <a href="">chudo-tomsk@yandex.ru</a></p>
+				</div>
+				<div class="phone left">
+					Тел.: <strong>211-311</strong>, <strong>+7-901-611-13-11</strong>
+				</div>
+				<div class="by right">Разработка: <a href="">«РосБизнесДизайн»</a></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
